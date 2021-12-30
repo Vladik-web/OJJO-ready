@@ -1781,8 +1781,11 @@ body.active {
 }
 
 @media (max-width: 680px) {
+  .footer__bottom ul li:not(:first-child) {
+    margin-bottom: 20px;
+  }
+
   .footer__bottom ul {
-    row-gap: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
