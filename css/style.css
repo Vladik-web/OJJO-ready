@@ -1716,7 +1716,10 @@ body.active {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    row-gap: 30px;
+  }
+
+  .intro__blocks-right {
+    margin-bottom: 30px;
   }
 
   .articles {
